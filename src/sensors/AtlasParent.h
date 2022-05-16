@@ -83,7 +83,7 @@
 #undef MS_DEBUGGING_STD
 #include "VariableBase.h"
 #include "SensorBase.h"
-#include <Wire.h>
+#include <Wire_slave.h>
 
 /**
  * @brief A parent class for Atlas EZO circuits and sensors

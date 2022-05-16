@@ -44,7 +44,9 @@ bool AOSongAM2315::setup(void) {
     // end of the buffer to see if an interrupt puts something into the
     // buffer.  In the case of the Wire library, that will never happen and
     // the timeout period is a useless delay.
+#if !defined(STM32F1)
     _i2c->setTimeout(0);
+#endif
     return Sensor::setup();  // this will set pin modes and the setup status bit
 }
 

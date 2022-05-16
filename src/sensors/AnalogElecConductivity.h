@@ -273,8 +273,8 @@
  */
 #define ANALOG_EC_ADC_REFERENCE_MODE AR_DEFAULT
 #endif
-#if defined ARDUINO_GENERIC_STM32F103R | defined DOXYGEN
-    #define ANALOG_EC_ADC_REFERENCE_MODE AR_DEFAULT
+#if defined STM32F1 | defined DOXYGEN
+    #define ANALOG_EC_ADC_REFERENCE_MODE 0 // PLACEHOLDER
 #endif
 #if !defined ANALOG_EC_ADC_REFERENCE_MODE
 #error The processor ADC reference type must be defined!
