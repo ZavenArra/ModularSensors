@@ -24,12 +24,8 @@
  * This is for a very basic conductivity circuit built with a single resistor
  * and an old power cord.  DC power is briefly supplied across the power cord
  * causing the water to act as one of the resistors on a voltage divider.
- * Knowing the voltage of the other resistor in the divider, we can calculate to
- * resistance from the water (and then its electrical conductivity) based on the
- * drop in volage across the divider.
- *
- * For this to work, the power across the circuit **MUST** be turned off between
- * readings.  If the power to the circuit is left on the water will become
+ * Knowing the voltage of the other resistor in the divider, we can calculate to    git push --set-upstream origin stm32
+
  * polarized and the values will not be valid. The water temperature (if used)
  * must be suplied separately for a calculation.
  *
@@ -276,6 +272,9 @@
  * @see https://www.arduino.cc/reference/en/language/functions/analog-io/analogreference/
  */
 #define ANALOG_EC_ADC_REFERENCE_MODE AR_DEFAULT
+#endif
+#if defined ARDUINO_GENERIC_STM32F103R | defined DOXYGEN
+    #define ANALOG_EC_ADC_REFERENCE_MODE AR_DEFAULT
 #endif
 #if !defined ANALOG_EC_ADC_REFERENCE_MODE
 #error The processor ADC reference type must be defined!
