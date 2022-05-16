@@ -2,10 +2,11 @@
 
 ## Notes for this Fork
 
-This fork aims to support included sensor driver implementations on STM32F1 MCUs running alternative firmware build on the Arduino framework.  Not all dependencies are compatible with the STM32F1 core currently, so the following process is recommended for including library code into a platformio project:
+This fork aims to support included sensor implementations on STM32F1 MCUs running alternative firmware build on the Arduino framework.  Not all dependencies are compatible with the STM32F1 core currently, so the following process is recommended for including library code into a platformio project:
 1. Fork this repository
 2. In library.json, find the build.srcFilter array, and include _only_ files that will be relevant to sensors you want to support.
 3. Add the URI for your fork to lib_deps in your main project's platformio.ini
+4. Include only the sensor files that you want to use.
 ___
 
 ## The EnviroDIY ModularSensors Library <!-- {#mainpage_intro} -->
