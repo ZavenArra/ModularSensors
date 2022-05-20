@@ -233,9 +233,8 @@
       "frameworks": "arduino"
     },
     {
-      "name": "SDI-12",
-      "owner": "envirodiy",
-      "library id": "1486",
+      "name": "Arduino-SDI-12",
+      "owner": "ZavenArra",
       "url": "https://github.com/ZavenArra/Arduino-SDI-12.git",
       "note": "EnviroDIY SDI-12 Library for Arduino",
       "author_notes": [
@@ -245,7 +244,6 @@
         "Anthony Aufdenkampe"
       ],
       "frameworks": "arduino",
-      "platforms": "atmelavr, atmelsam"
     },
     {
       "name": "MS5803",
