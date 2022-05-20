@@ -151,7 +151,6 @@
       "owner": "adafruit",
       "library id": "166",
       "url": "https://github.com/adafruit/Adafruit_BME280_Library",
-      "version": "~2.2.2",
       "note": "Bosch BME280 Temp/Humidity/Pressure Sensor Library by Adafruit",
       "authors": ["Adafruit"],
       "frameworks": "arduino",
@@ -160,7 +159,7 @@
     {
       "name": "BMP388_DEV",
       "owner": "MartinL1",
-      "version": "https://github.com/MartinL1/BMP388_DEV.git",
+      "version": "https://github.com/ZavenArra/BMP388_DEV.git",
       "version_note": "~1.0.7",
       "note": "An Arduino compatible, non-blocking, I2C/SPI library for the Bosch BMP388 barometer.",
       "authors": ["Martin Lindupp"],
@@ -237,8 +236,7 @@
       "name": "SDI-12",
       "owner": "envirodiy",
       "library id": "1486",
-      "version": "~2.1.4",
-      "url": "https://github.com/EnviroDIY/Arduino-SDI-12",
+      "url": "https://github.com/ZavenArra/Arduino-SDI-12.git",
       "note": "EnviroDIY SDI-12 Library for Arduino",
       "author_notes": [
         "Kevin M. Smith",
