@@ -243,7 +243,7 @@
         "Shannon Hicks",
         "Anthony Aufdenkampe"
       ],
-      "frameworks": "arduino",
+      "frameworks": "arduino"
     },
     {
       "name": "MS5803",
