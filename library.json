@@ -274,15 +274,7 @@
       "frameworks": "arduino",
       "platforms": "atmelavr, atmelsam"
     },
-    {
-      "name": "KellerModbus",
-      "owner": "envirodiy",
-      "library id": "5439",
-      "url": "https://github.com/EnviroDIY/KellerModbus",
-      "version": "~0.2.2",
-      "note": "Arduino library for communication with Keller pressure and water level sensors via Modbus.",
-      "authors": ["Anthony Aufdenkampe"]
-    },
+    
     {
       "name": "YosemitechModbus",
       "owner": "envirodiy",
